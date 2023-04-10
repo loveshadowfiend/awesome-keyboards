@@ -1,0 +1,74 @@
+*:focus {
+    outline: none;
+}
+
+.seperator {
+    height: 10vh;
+}
+
+#auth {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#auth h1, h3 {
+    text-align: center;
+}
+
+#auth h1 {
+    padding-bottom: 15px;
+}
+
+#auth h3 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+#auth form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#auth form button {
+    color: #454545;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #FFD1D1;
+    border: none;
+}
+
+#auth input {
+    margin: 5px 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.msg {
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FFD1D1;
+}
+
+@media only screen and (max-width: 500px) {
+    #auth form {
+        width: 300px;
+    }
+}

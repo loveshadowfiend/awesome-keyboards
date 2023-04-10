@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* #index {
+    height: 90vh;
+} */
+
+#hero {
+    /* background-image: url("/ur8lea1tp2k31-V9xxzNZSi-transformed.jpeg"); */
+    background-image: url("/Hdd5c70ce0c2148b1910bdb93df00b597t\ copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+#hero a {
+    text-decoration: none;
+}
+
+.seperator {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#featured {
+    display: grid;
+    grid: auto / repeat(1, 1fr);
+    height: 80vh;
+    border: 1px solid black;
+    border-right: 0px; border-left: 0px;
+}
+
+.card {
+    border-left: 1px solid black;
+}
+
+.card-image {
+    height: 70vh;
+}
+
+.card-description {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.card-description h1 {
+    padding-bottom: 2vh;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.card-image {
+    /* background-position: center;
+    background-image: url(/jeans3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+#promo {
+    height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero {
+        height: 25vh;
+    }
+}

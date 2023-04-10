@@ -1,0 +1,118 @@
+input:focus {
+    outline: none;
+}
+
+.seperator {
+    height: 5vh;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input, select {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 30vw;
+    border: 1px solid black;
+}
+
+button {
+    width: 30vw;
+    color: #454545;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #FFD1D1;
+    border: none;
+}
+
+.products-display {
+    min-height: 50vh;
+}
+
+table {
+    margin: auto;
+    width: 75%;
+    border-collapse: separate;
+    border-spacing: 1px;
+}  
+
+td {
+    text-align: center;
+    outline: 1px solid black;
+    padding-top: 1vh; padding-bottom: 1vh;
+    padding-left: 5vh; padding-right: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #FFD1D1;
+}
+
+.msg {
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width:1280px){
+    .products-display{
+        overflow-y:scroll;
+     }
+
+    input, select {
+        width: 50vw;
+    }
+
+    button {
+        width: 50vw;
+    }
+} 
+
+ @media (max-width:768px){
+
+    input, select {
+        width: 60vw;
+    }
+
+    button {
+        width: 60vw;
+    }
+ 
+    .products-display .products-display-table{
+        font-size: 80%;
+       width: 80rem;
+    }
+ 
+ }
+ 
+ @media (max-width:428px){
+
+    input, select {
+        width: 80vw;
+    }
+
+    button {
+        width: 80vw;
+    }
+
+ }

@@ -1,0 +1,39 @@
+* {
+    outline: none;
+}
+
+.order {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+form {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+button {
+    color: #454545;
+    margin-top: 15px;
+    height: 40px;
+    background-color: #FFD1D1;
+    border: none;
+}
+
+@media only screen and (max-width: 500px) {
+    form {
+        width: 300px;
+    }
+}

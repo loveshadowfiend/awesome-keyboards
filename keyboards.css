@@ -1,0 +1,119 @@
+html {
+    overflow-x: hidden;
+}
+
+.products {
+    min-height: 60vh;
+    display: grid;
+    grid: auto / repeat(3, 1fr);
+}
+
+.seperator {
+    height: 10vh;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-image {
+    outline: 1px solid black;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 70vh;
+}
+
+.card-description {
+    outline: 1px solid black;
+    margin-top: 1px;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.card-image {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.products-preview {
+    position: fixed;
+    top:0; left:0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-preview {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin: 2rem;
+    width: 40rem;
+ }
+
+ .card-preview .fa-times{
+    position: absolute;
+    top: 1rem; right: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+ }
+ 
+ .active {
+    display: inline-block;
+ }
+
+ button {
+    color: #454545;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FFD1D1;
+    border: none;
+ }
+
+ .msg {
+    display: none;
+ }
+
+ img {
+    height: 250px;
+    margin-bottom: 2vh;
+ }
+
+ p {
+    font-size: 15px;
+    text-align: center;
+ }
+
+
+@media only screen and (max-width: 900px) {
+    .products {
+        grid: auto / repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card-preview {
+        width: 25rem;
+    }
+
+    img {
+        height: 150px;
+    }
+}
