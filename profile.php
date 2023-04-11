@@ -23,7 +23,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profile</title>
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
     <section id="profile">
